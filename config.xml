@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "ca.bialik.bialik"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Bialik</name>
+
+    <description>
+        Bialik Hebrew School App
+    </description>
+
+    <author href="" email="">        
+    </author>
+
+<icon src="/images/icons/icon.png" />
+<!-- iPhone / iPod Touch  -->
+<icon src="/images/icons/icon-60.png" gap:platform="ios" width="60" height="60" />
+<icon src="/images/icons/icon-60@2x.png" gap:platform="ios" width="120" height="120" />
+
+<!-- iPad -->
+<icon src="/images/icons/icon-76.png" gap:platform="ios" width="76" height="76" />
+<icon src="/images/icons/icon-76@2x.png" gap:platform="ios" width="152" height="152" />
+
+<!-- Settings Icon -->
+<icon src="/images/icons/icon-small.png" gap:platform="ios" width="29" height="29" />
+<icon src="/images/icons/icon-small@2x.png" gap:platform="ios" width="58" height="58" />
+
+<!-- Spotlight Icon -->
+<icon src="/images/icons/icon-40.png" gap:platform="ios" width="40" height="40" />
+<icon src="/images/icons/icon-40@2x.png" gap:platform="ios" width="80" height="80" />
+</widget>
